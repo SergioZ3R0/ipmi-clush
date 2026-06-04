@@ -2,15 +2,17 @@
 
 `ipmi-clush` - Parallel IPMI Utility with ClusterShell Aggregation
 
-**Author:** @Sergio Cabello Simón
+**Author:** SergioZ3R0
 
 **Target Subsystem:** Out-of-Band Management (BMC / IPMI Infrastructure)
 
 - 1 [Overview](#Overview)
 - 2 [Key Features](#Key-Features)
 - 3 [Installation](#Installation)
-- 4 [Syntax & Usage](#Syntax-%26-Usage)- 3.1 [Arguments](#Arguments)
-- 5 [Use Cases & Production Examples](#Use-Cases-%26-Production-Examples)- 4.1 [Use Case 1: Cluster-Wide Out-of-Band User Auditing](#Use-Case-1%3A-Cluster-Wide-Out-of-Band-User-Auditing)
+- 4 [Syntax & Usage](#Syntax-%26-Usage)
+- 4.1 [Arguments](#Arguments)
+- 5 [Use Cases & Production Examples](#Use-Cases-%26-Production-Examples)
+- 5.1 [Use Case 1: Cluster-Wide Out-of-Band User Auditing](#Use-Case-1%3A-Cluster-Wide-Out-of-Band-User-Auditing)
 - 5.2 [Use Case 2: Mass Power Management & Telemetry Verification](#Use-Case-2%3A-Mass-Power-Management-%26-Telemetry-Verification)
 - 6 [Error Handling & Debugging](#Error-Handling-%26-Debugging)
 
