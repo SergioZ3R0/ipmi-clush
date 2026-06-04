@@ -8,10 +8,11 @@
 
 - 1 [Overview](#Overview)
 - 2 [Key Features](#Key-Features)
-- 3 [Syntax & Usage](#Syntax-%26-Usage)- 3.1 [Arguments](#Arguments)
-- 4 [Use Cases & Production Examples](#Use-Cases-%26-Production-Examples)- 4.1 [Use Case 1: Cluster-Wide Out-of-Band User Auditing](#Use-Case-1%3A-Cluster-Wide-Out-of-Band-User-Auditing)
-- 4.2 [Use Case 2: Mass Power Management & Telemetry Verification](#Use-Case-2%3A-Mass-Power-Management-%26-Telemetry-Verification)
-- 5 [Error Handling & Debugging](#Error-Handling-%26-Debugging)
+- 3 [Installation](#Installation)
+- 4 [Syntax & Usage](#Syntax-%26-Usage)- 3.1 [Arguments](#Arguments)
+- 5 [Use Cases & Production Examples](#Use-Cases-%26-Production-Examples)- 4.1 [Use Case 1: Cluster-Wide Out-of-Band User Auditing](#Use-Case-1%3A-Cluster-Wide-Out-of-Band-User-Auditing)
+- 5.2 [Use Case 2: Mass Power Management & Telemetry Verification](#Use-Case-2%3A-Mass-Power-Management-%26-Telemetry-Verification)
+- 6 [Error Handling & Debugging](#Error-Handling-%26-Debugging)
 
 
 ## Overview
@@ -28,6 +29,14 @@ While native tools like `clush` (ClusterShell) operate smoothly over SSH within 
 - **Natural Sorting Representation: **Displays grouped host ranges utilizing semantic, compressed notation for rapid infrastructure health assessments.
 - **True Parallel Execution: **Utilizes background subshells to query hundreds of BMCs simultaneously, cutting execution time to seconds.
 - **ClusterShell Integration:** Natively resolves `@groups` defined in `/etc/clustershell/groups.conf` via the `nodeset` command.
+
+## Installation
+
+Since this is a private repository, ensure your environment has the proper Git credentials configured, then run the following one-liner to clone, deploy globally, and set execution permissions:
+
+```
+git clone -q [https://github.com/doitnowgroup/ipmi-clush.git](https://github.com/doitnowgroup/ipmi-clush.git) /tmp/ipmi-clush-tmp && sudo mv /tmp/ipmi-clush-tmp/ipmi-clush /usr/local/bin/ipmi-clush && sudo chmod +x /usr/local/bin/ipmi-clush && rm -rf /tmp/ipmi-clush-tmp
+```
 
 ## Syntax & Usage
 
