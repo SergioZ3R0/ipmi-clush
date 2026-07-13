@@ -2,8 +2,6 @@
 
 `ipmi-clush` - Parallel IPMI Utility with ClusterShell Aggregation
 
-**Author:** SergioZ3R0
-
 **Target Subsystem:** Out-of-Band Management (BMC / IPMI Infrastructure)
 
 - 1 [Overview](#Overview)
@@ -162,3 +160,9 @@ cpu0[05] (1)
 ---------------
 Error: Unable to establish IPMI v2 / RMCP+ session
 ```
+
+---
+
+## Author
+
+**SergioZ3R0** · [@SergioZ3R0](https://github.com/SergioZ3R0)
